@@ -18,7 +18,7 @@ class MP3Importer
   end
   
   def import
-    files.map do |x|
+    files.each do |x|
       x
       binding.pry
     end
