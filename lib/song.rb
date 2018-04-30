@@ -10,7 +10,7 @@ class Song
     x = filename.split(" - ")
     x[2].slice!(".mp3")
     Song.new(x[1])
-    self.artist = x[0]
+    self.artist.name = x[0]
     self.name = x[1]
   end
   
