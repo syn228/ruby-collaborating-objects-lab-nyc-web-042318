@@ -21,7 +21,7 @@ class MP3Importer
     x = files.split(" - ")
       
       binding.pry
-    end
+    
     
     
   end
