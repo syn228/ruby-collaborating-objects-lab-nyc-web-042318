@@ -18,10 +18,11 @@ class MP3Importer
   end
   
   def import
-    x = files.split(" - ")
+    files.each do |x|
+      Artist.all << x.uniq
       
       binding.pry
-    
+    end
     
     
   end
