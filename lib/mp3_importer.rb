@@ -20,6 +20,7 @@ class MP3Importer
   def import
     files.map do |x|
       Song.new_by_filename(x)
+      binding.pry
     end
   end
   
