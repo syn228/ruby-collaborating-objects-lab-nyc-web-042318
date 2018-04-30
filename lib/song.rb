@@ -11,8 +11,9 @@ class Song
     x = filename.split(" - ")
     x.map do |y|
       y
+      binding.pry
     end
-    binding.pry
+    
     
   end
   
