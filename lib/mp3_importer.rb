@@ -19,7 +19,7 @@ class MP3Importer
   
   def import
     files.each do |x|
-      Artist.all << x.uniq
+      Artist.all << x
       
       binding.pry
     end
