@@ -6,6 +6,7 @@ class MP3Importer
         @files << file_name
       end
     end
+    @files
   end
   
   def import
