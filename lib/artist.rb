@@ -24,12 +24,16 @@ class Artist
   def self.find_or_create_by_name(name)
     if @@all.detect do |i|
       i.name == name
+      return i
       end
-      return "true"
     else Artist.new(name)
     end
-    
   end
+  
+  def print_songs
+    @songs
+  end
+  
   
   
   
