@@ -28,6 +28,7 @@ class Artist
       return "true"
     else Artist.new(name)
     end
+    end
   end
   
   
