@@ -19,7 +19,7 @@ class MP3Importer
   
   def import
     @files.uniq
-    binding.pry  
+    
     
   end
   
