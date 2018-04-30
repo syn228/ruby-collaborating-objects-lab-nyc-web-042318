@@ -18,8 +18,8 @@ class MP3Importer
   end
   
   def import
-    files.each do |x|
-      x
+    x = files.split(" - ")
+      
       binding.pry
     end
     
