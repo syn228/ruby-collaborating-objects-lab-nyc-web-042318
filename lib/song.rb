@@ -9,7 +9,9 @@ class Song
   
   def self.new_by_filename(filename)
     x = filename.split(" - ")
-    x.pop
+    x.map do |y|
+    end
+    binding.pry
     
   end
   
