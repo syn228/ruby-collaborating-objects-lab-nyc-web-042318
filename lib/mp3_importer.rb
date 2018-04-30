@@ -21,7 +21,7 @@ class MP3Importer
     files.map do |x|
       y = Song.new_by_filename(x)
         y.name
-      Artist.add_song(y.name)
+      
       binding.pry
     end
   end
