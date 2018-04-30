@@ -19,8 +19,8 @@ class MP3Importer
   
   def import
     @files.uniq
-      
-    end
+    binding.pry  
+    
   end
   
   
