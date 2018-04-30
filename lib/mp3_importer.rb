@@ -1,5 +1,12 @@
 class MP3Importer
   
+  attr_accessor :path, :files
+  
+  def initialize(path)
+    @path = path
+    @files = []
+  
+  
   def files
     Dir.foreach(@path) do |file_name|
       if file_name.end_with? "mp3"
