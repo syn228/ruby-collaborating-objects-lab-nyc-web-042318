@@ -19,7 +19,7 @@ class MP3Importer
   
   def import
     files.map do |x|
-      Song.
+      Song.new
   end
   
   
