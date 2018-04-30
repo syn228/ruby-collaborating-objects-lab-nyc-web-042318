@@ -19,8 +19,7 @@ class MP3Importer
   
   def import
     files.map do |x|
-      y = Song.new_by_filename(x)
-        y.name
+      x
       binding.pry
     end
   end
