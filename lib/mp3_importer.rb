@@ -18,7 +18,9 @@ class MP3Importer
   end
   
   def import
-    
+    @files.map do |x|
+      x.split(" - ")
+    end
   end
   
   
