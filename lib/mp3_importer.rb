@@ -18,11 +18,7 @@ class MP3Importer
   end
   
   def import
-    files.each do |x|
-      Artist.all << x
-      
-      binding.pry
-    end
+    Song.new_by_filename(files)
     
     
   end
