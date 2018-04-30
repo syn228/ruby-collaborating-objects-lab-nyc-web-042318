@@ -9,10 +9,12 @@ class Song
   
   def self.new_by_filename(filename)
     x = filename.split(" - ")
-    x.slice(2).map do |y|
-      y
+    song = Song.new(x[1])
+      artist = Artist.new(x[0])
+        song.artist = artist
+          song
       
-      binding.pry
+      
     end
     
     
