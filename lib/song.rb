@@ -13,12 +13,6 @@ class Song
       artist = Artist.new(x[0])
         song.artist = artist
           song
-      
-      
-    end
-    
-    
-    
   end
   
 end
