@@ -18,8 +18,7 @@ class MP3Importer
   end
   
   def import
-    files.each do |x|
-      x
+    @files.uniq
       
     end
   end
